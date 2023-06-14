@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+    <link rel="stylesheet" href="./layout.css">
+</head>
+
+<body>
+    <header>
+        <h1>Clover's Site</h1>
+        <span>Sign in</span>
+    </header>
+    <nav>
+        <span><a href="./index.html">Home</a></span>
+        <span><a href="./about.html">About</a></span>
+        <span><a href="./gallery.html">Gallery</a></span>
+        <span><a href="./comments.html">Comments</a></span>
+    </nav>
+    <form action="post">
+        <fieldset>
+            <div>
+                <label for="Name">Name</label>
+                <input type="text" name="name">
+            </div>
+            <div>
+                <label for="email">Email address</label>
+                <input type="text" name="email">
+            </div>
+            <div>
+                <span>Which cats are your favorite?</span>
+                <input type="checkbox" name="fav-cat" value="clover">
+                <label for="clover">Clover</label>
+                <input type="checkbox" name="fav-cat" value="clover">
+                <label for="clover">Clover</label>
+                <input type="checkbox" name="fav-cat" value="clover">
+                <label for="clover">Clover</label>
+            </div>
+            <div>
+                <label for="comment">Comment</label>
+                <textarea name="comment" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit">Submit comment!</button>
+        </fieldset>
+    </form>
+</body>
